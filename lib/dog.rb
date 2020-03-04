@@ -17,12 +17,14 @@ class Dog
     @@all
   end
   
-  def self.clear_all
-    @@all.clear
-  end
+
   
   def self.print_all
-    @@all.each { |song| puts song }
+    @@all.each { |puppy| return puppy}
+  end
+  
+  def self.clear_all
+    @@all.clear
   end
   
 end
