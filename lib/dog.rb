@@ -20,7 +20,7 @@ class Dog
 
   
   def self.print_all
-    @@all.each { |puppy| return puppy}
+    @@all.each { |puppy| print puppy}
   end
   
   def self.clear_all
