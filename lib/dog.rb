@@ -17,6 +17,10 @@ class Dog
     @@all
   end
   
+  def self.clear_all
+    @@all.each do |song|
+      song.clear
+  
   def self.print_all
     @@all.each do |song|
       return "#{song}"
