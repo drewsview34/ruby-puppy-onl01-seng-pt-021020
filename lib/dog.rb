@@ -18,8 +18,7 @@ class Dog
   end
   
   def self.clear_all
-    @@all.each do |song|
-      song.clear
+    @@all.clear
   
   def self.print_all
     @@all.each do |song|
