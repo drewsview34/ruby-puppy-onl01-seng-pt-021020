@@ -19,7 +19,7 @@ class Dog
   
   def self.print_all
     @@all.each do |song|
-      puts "#{song}"
+      return "#{song}"
     end
   end
   
